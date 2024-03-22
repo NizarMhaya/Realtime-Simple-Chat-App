@@ -9,10 +9,12 @@ Permet que le projet utilise npm
 Installer la bibliothèque socket.io
 
 3) npm i --save-dev nodemon
-Installe nodemon qui permet au server de se rafraichir à chaque changement. Donc pas besoin de l'annuler et de le restart
+Installe nodemon qui permet au server de se rafraichir à chaque changement. Donc pas besoin de l'annuler et de le restart. Utile pour le dev pour pouvoir modifier le javascript sans avoir besoin de restart le server
 
 4) npm run devStart
 commande à executer dans le dossier Realtime-Simple-Chat-App pour pouvoir utiliser le chat
 
 Pour plus d'information consultez le magnifique tuto suivant :
 https://www.youtube.com/watch?v=rxzOqP9YwmM
+
+Pour intégrer ça dans laravel il faut modifier le fichier app.js dans resources
